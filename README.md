@@ -1,16 +1,72 @@
-# React + Vite
+# Mac OS Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A macOS-inspired personal portfolio website built with React and Vite, designed to mimic the aesthetic and layout of a Mac desktop environment. The app includes interactive floating windows, a dock, app launchers, and a stylish portfolio experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- macOS-style desktop layout
+- floating draggable windows
+- interactive app dock
+- portfolio sections for projects and notes
+- responsive layout
+- custom SCSS styling
+- project card system
+- note viewer
+- GitHub portfolio section
+- Spotify-inspired UI section
+- terminal-style CLI window
+- clean and modern design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- HTML
+- SCSS
+- JavaScript
+- React
+- Vite
+- React Router
+- react-rnd
+- react-markdown
+- react-syntax-highlighter
 
-## Expanding the ESLint configuration
+## Languages Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- HTML
+- CSS / SCSS
+- JavaScript
+- JSX
+
+## Tools Used
+
+- Vite
+- Node.js
+- NPM
+- Git
+- GitHub
+- VS Code
+- SCSS
+- React Developer Tools
+
+## Project Structure
+
+```bash
+src/
+├── assets/
+│   ├── images/
+│   ├── github.json
+│   └── ...
+├── components/
+│   ├── Dock.jsx
+│   ├── Nav.jsx
+│   ├── windows/
+│   │   ├── MacWindow.jsx
+│   │   ├── Github.jsx
+│   │   ├── Note.jsx
+│   │   ├── Resume.jsx
+│   │   ├── Spotify.jsx
+│   │   ├── Cli.jsx
+│   │   └── ...
+├── App.jsx
+├── app.scss
+├── main.jsx
+└── ...
